@@ -1,2 +1,2 @@
 # disablemailto
-[Kopano WebApp Plugin] Disable the mailTo request
+[Kopano WebApp Plugin] Disable the mailto functionality

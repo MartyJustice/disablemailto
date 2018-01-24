@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE plugin SYSTEM "manifest.dtd">
+<plugin version="2">
+	<info>
+		<version>1.0</version>
+		<name>disablemailto</name>
+		<title>Disable MailTo Plugin</title>
+		<author>Martijn Alberts</author>
+		<authorURL>https://github.com/MartyJustice/</authorURL>
+		<description>Disable the mail to functionality</description>
+	</info>
+	<config>
+		<configfile>config.php</configfile>
+	</config>
+	<components>
+		<component>
+			<files>
+				<server>
+					<serverfile>php/plugin.disablemailto.php</serverfile>
+				</server>
+				<client>
+					<clientfile load="release">js/disablemailto.js</clientfile>
+					<clientfile load="debug">js/disablemailto.js</clientfile>
+					<clientfile load="source">js/disablemailto.js</clientfile>
+				</client>
+			</files>
+		</component>
+	</components>
+</plugin>
