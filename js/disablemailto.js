@@ -9,10 +9,7 @@ Zarafa.plugins.disablemailto.DisableMailToPlugin = Ext.extend(Zarafa.core.Plugin
 
 	initPlugin : function()
 	{
-		Zarafa.registerMailto = function()
-		{
-			return false;
-		};
+		Zarafa.registerMailto = Ext.emptyFn;
 	}
 
 });
